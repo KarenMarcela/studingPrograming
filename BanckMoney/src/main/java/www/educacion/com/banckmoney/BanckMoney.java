@@ -15,9 +15,6 @@ public class BanckMoney {
         user2.consignMoney(100_000);
         
         System.out.println("La cantidad total asignada es $"+user2.getMoney());
-        
-        
-        
-        
+      
     }
 }
