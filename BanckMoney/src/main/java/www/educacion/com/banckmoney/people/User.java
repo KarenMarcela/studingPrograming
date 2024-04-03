@@ -37,11 +37,11 @@ public class User {
 
     
     public void consignMoney(double qty){
-        if(this.money < 0){
+        if(qty < 0){
             System.out.println("No se puede consignar");
             return;
         }
-        this.money += qty;
+        this.money += money;
         System.out.println("Consignación exitosa");
     }
     public void whithdrawMoney(double qty){
