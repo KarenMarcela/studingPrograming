@@ -9,7 +9,7 @@ public class People {
     private int age;
     private String dni;
     private char sex;
-    private static final char sex_flaw='F';
+    private static final char sex_flaw='H';
     private double weight;
     private double height;
     private static final double mal= -1;
