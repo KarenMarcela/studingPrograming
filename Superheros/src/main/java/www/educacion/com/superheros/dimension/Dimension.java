@@ -46,19 +46,24 @@ public class Dimension {
     public void setDepth(double depth) {
         this.depth = depth;
     }
+    
+    //Metodo para calcular el volumen maximo
     public double getVolumen(){
         return this.height*this.weight*this.depth;
     }
     public double getMaxVolumen(){
         return maxVolumen;
     }
-
     public void setMaxVolumen(double maxVolumen) {
         this.maxVolumen = maxVolumen;
     }
     
     public String toSring(){
-        return ("Su ancho es "+this.weight+", su altura es: "+this.height+", su profundidad es: "+this.depth+" y su volumen maximo es: "+getVolumen());
+        return "Dimensiones: "+
+                "\n Altura: "+height+
+                "\n Ancho: "+weight+
+                "\n Profundidad: "+depth+
+                "\n Máximo Volumen: "+maxVolumen;
     }
     
 }
